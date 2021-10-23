@@ -1,7 +1,7 @@
 import React from 'react';
-import cover from './images/pasta_russa_2021_400px.jpg';
-import Spotify from './images/streamings/spotify.svg';
 import './App.css';
+import { StreamLinks } from './components/StreamLinks';
+import cover from './images/pasta_russa_2021_400px.jpg';
 
 function App() {
   return (
@@ -12,9 +12,7 @@ function App() {
           <h2>Pasta Russa</h2>
           <p>2021</p>
         </div>
-        <div className="album-links">
-          <img src={Spotify} alt="Spotify" className="stream-link" />
-        </div>
+        <StreamLinks />
       </div>
     </div>
   );
