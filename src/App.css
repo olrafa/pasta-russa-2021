@@ -1,15 +1,24 @@
 .pasta-russa {
   font-family: 'Averia Serif Libre', cursive;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 1em;
+  text-align: center;
 }
 
-.album-info {
-  padding: 1em;
+.band-name {
+  margin-bottom: 0.2em;
+}
+
+.album-title {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.album-links {
+  margin: 1em;
 }
 
 .stream-link {
