@@ -7,11 +7,15 @@ export const StreamLinks = () => {
       {services
         .filter((service) => service.link)
         .map((service) => (
-          <a href={service.link} target="_blank" rel="noreferrer noopener">
+          <a
+            href={service.link}
+            target="_blank"
+            rel="noreferrer noopener"
+            key={service.id}
+          >
             <img
               src={service.icon}
               alt={service.name}
-              key={service.id}
               className="stream-link"
             />
           </a>

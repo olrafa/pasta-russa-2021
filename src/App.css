@@ -17,8 +17,23 @@
   font-size: 1.2em;
 }
 
+.album-cover {
+  width: clamp(200px, 70%, 400px);
+  height: clamp(200px, 70%, 400px);
+  object-fit: cover;
+}
+
+.album-info {
+  display: flex;
+  padding: 1em;
+  align-items: center;
+}
+
 .album-links {
-  margin: 1em;
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .stream-link {
@@ -30,7 +45,8 @@
   border-radius: 0.5em;
   cursor: pointer;
   margin: 0 10px;
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(336deg) brightness(108%) contrast(101%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(336deg)
+    brightness(108%) contrast(101%);
 }
 
 .stream-link:hover {
