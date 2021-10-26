@@ -3,6 +3,7 @@ import Apple from '../images/icons/apple.svg';
 import Amazon from '../images/icons/amazon.svg';
 import Deezer from '../images/icons/deezer.svg';
 import YouTube from '../images/icons/youtube.svg';
+import Tidal from '../images/icons/tidal.svg';
 
 type StreamingService = {
   id: number;
@@ -36,5 +37,11 @@ export const services: StreamingService[] = [
     name: 'YouTube',
     icon: YouTube,
     link: 'https://www.youtube.com/watch?v=knLSKn-JtTc',
+  },
+  {
+    id: 6,
+    name: 'Tidal',
+    icon: Tidal,
+    link: 'https://listen.tidal.com/album/201723999',
   },
 ];
