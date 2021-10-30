@@ -18,22 +18,19 @@
 }
 
 .album-cover {
-  width: clamp(200px, 70%, 400px);
-  height: clamp(200px, 70%, 400px);
+  width: clamp(200px, 100%, 400px);
   object-fit: cover;
 }
 
 .album-info {
-  display: flex;
   padding: 1em;
-  align-items: center;
 }
 
 .album-links {
-  margin: 0 1em;
+  margin: 1em;
   display: grid;
   justify-content: space-between;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .stream-link {
