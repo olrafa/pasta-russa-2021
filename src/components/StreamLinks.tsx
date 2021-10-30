@@ -17,6 +17,7 @@ export const StreamLinks = () => {
               src={service.icon}
               alt={service.name}
               className="stream-link"
+              id={`link-${service.id}`}
             />
           </a>
         ))}

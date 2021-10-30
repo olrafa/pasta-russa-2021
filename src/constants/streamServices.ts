@@ -4,6 +4,7 @@ import Amazon from '../images/icons/amazon.svg';
 import Deezer from '../images/icons/deezer.svg';
 import YouTube from '../images/icons/youtube.svg';
 import Tidal from '../images/icons/tidal.svg';
+import Claro from '../images/icons/claro.svg';
 
 type StreamingService = {
   id: number;
@@ -43,5 +44,11 @@ export const services: StreamingService[] = [
     name: 'Tidal',
     icon: Tidal,
     link: 'https://listen.tidal.com/album/201723999',
+  },
+  {
+    id: 7,
+    name: 'Claro Música',
+    icon: Claro,
+    link: 'https://www.claromusica.com/album/22297266',
   },
 ];

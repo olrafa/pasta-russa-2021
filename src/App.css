@@ -31,9 +31,9 @@
 
 .album-links {
   margin: 0 1em;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .stream-link {
@@ -52,4 +52,8 @@
 .stream-link:hover {
   filter: none;
   opacity: 1;
+}
+
+#link-7 {
+  padding: 1em 0.5em;
 }
