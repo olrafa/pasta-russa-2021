@@ -24,6 +24,7 @@
 
 .album-info {
   padding: 1em;
+  display: block;
 }
 
 .album-links {
@@ -53,4 +54,13 @@
 
 #link-7 {
   padding: 1em 0.5em;
+}
+
+@media screen and (min-width: 576px) {
+  .album-info {
+    display: flex;
+  }
+  .album-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
