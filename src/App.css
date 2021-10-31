@@ -1,5 +1,5 @@
 .pasta-russa {
-  font-family: 'Averia Serif Libre', cursive;
+  font-family: 'Podkova', serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,4 +63,12 @@
   .album-links {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.contact-mail {
+  font-size: 13px;
+  bottom: 0;
+  position: fixed;
+  left: 1em;
+  cursor: pointer;
 }
