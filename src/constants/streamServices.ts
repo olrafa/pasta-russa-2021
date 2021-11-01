@@ -24,7 +24,7 @@ export const services: StreamingService[] = [
     id: 2,
     name: 'Apple Music',
     icon: Apple,
-    link: 'https://music.apple.com/album/1590883952',
+    link: 'https://music.apple.com/pt/album/1590883952',
   },
   {
     id: 3,
