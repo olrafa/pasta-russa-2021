@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { About } from './components/About';
 import { ContactLink } from './components/ContactLink';
 import { StreamLinks } from './components/StreamLinks';
 import cover from './images/pasta_russa_2021_400px.jpg';
@@ -15,7 +16,7 @@ function App() {
         <img src={cover} className="album-cover" alt="album cover" />
         <StreamLinks />
       </div>
-      <ContactLink />
+      <About />
     </div>
   );
 }

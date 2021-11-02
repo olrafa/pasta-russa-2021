@@ -73,3 +73,27 @@
   left: 1em;
   cursor: pointer;
 }
+
+.about-page {
+  font-size: 16px;
+  max-width: 30em;
+  margin: 0 1em;
+}
+
+.about-page.open {
+  text-align: left;
+}
+
+.about-page.closed {
+  cursor: pointer;
+}
+
+.lang-selector {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.lang-selector.on {
+  font-weight: bold;
+  cursor: none;
+}
