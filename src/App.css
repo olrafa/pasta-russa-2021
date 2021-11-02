@@ -19,6 +19,7 @@
 
 .album-cover {
   width: clamp(200px, 100%, 400px);
+  height: clamp(200px, 100%, 400px);
   object-fit: cover;
 }
 
