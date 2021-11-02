@@ -49,6 +49,6 @@ export const services: StreamingService[] = [
     id: 7,
     name: 'Claro Música',
     icon: Claro,
-    // link: 'https://www.claromusica.com/album/22297266',
+    link: 'https://www.claromusica.com/album/22297266',
   },
 ];
