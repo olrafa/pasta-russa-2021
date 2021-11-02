@@ -5,6 +5,7 @@ import Deezer from '../images/icons/deezer.svg';
 import YouTube from '../images/icons/youtube.svg';
 import Tidal from '../images/icons/tidal.svg';
 import Claro from '../images/icons/claro.svg';
+import Boomplay from '../images/icons/boomplay.png';
 
 type StreamingService = {
   id: number;
@@ -32,7 +33,12 @@ export const services: StreamingService[] = [
     icon: Amazon,
     link: 'https://music.amazon.com/albums/B09JSWN2QY',
   },
-  { id: 4, name: 'Deezer', icon: Deezer },
+  {
+    id: 4,
+    name: 'Deezer',
+    icon: Deezer,
+    link: 'https://www.deezer.com/br/album/266601522',
+  },
   {
     id: 5,
     name: 'YouTube',
@@ -51,4 +57,10 @@ export const services: StreamingService[] = [
     icon: Claro,
     link: 'https://www.claromusica.com/album/22297266',
   },
+  {
+    id: 8,
+    name: 'Boomplay',
+    icon: Boomplay,
+    link: 'https://www.boomplay.com/share/album/33505980'
+  }
 ];
