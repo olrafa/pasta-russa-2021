@@ -43,7 +43,7 @@ export const services: StreamingService[] = [
     id: 5,
     name: 'YouTube',
     icon: YouTube,
-    link: 'https://www.youtube.com/watch?v=knLSKn-JtTc',
+    link: 'https://www.youtube.com/playlist?list=OLAK5uy_lQQNQOr8nL0U45nmDgQHe4i2DI703S7Uk',
   },
   {
     id: 6,
