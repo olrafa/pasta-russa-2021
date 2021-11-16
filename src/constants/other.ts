@@ -1,0 +1,1 @@
+export const songWhip = 'https://songwhip.com/pastarussa/2021';
