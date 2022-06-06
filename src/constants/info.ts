@@ -1,7 +1,7 @@
 export const about = {
-  PT: 'Anos atrás, montamos várias bandas e um pequeno projeto que envolvia beats eletrônicos. Em 2021, com a vida em suspenso, uma onda nostálgica e trabalho remoto, o pequeno projeto voltou.',
+  PT: 'Pasta Russa é um duo formado em São Paulo em 2004 como um experimento com guitarra, baixo e beats eletrônicos. Durante a quarentena de 2021 veio a idea de retomar. O resultado foi um novo EP, em que trabalhamos remotamente e expandimos o escopo da experimentação',
 
-  EN: 'Years ago, we formed several bands and a small project that involved electronic beats. In 2021, with life on suspension, a nostalgic vibe and remote working, that small project returns.',
+  EN: 'Pasta Russa is a duo that started in São Paulo in 2004 as an experiment with guitar, bass, and electronic beats. During the lockdowns of 2021 came the idea of returning to it. The result was a new EP where we worked remotely and expanded the scope of the experimentation.',
 };
 
 export const socials = {
